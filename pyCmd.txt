@@ -7,6 +7,9 @@ if lib is showing not installed even if u did: ctrl+shift +p -> select interpret
 Using -m (module mode) is the professional way to run local scripts: python -m model.hardcodedModel
 It force‑creates an empty file named __init__.py inside the Validate folder :New-Item -ItemType File -Path "Validate\__init__.py" -Force
 
+
+
+
 GIT comments: 
 git init - Initialize a new Git repository
 
