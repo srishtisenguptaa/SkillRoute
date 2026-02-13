@@ -6,3 +6,26 @@ to check all the instaalled lib in env (.venv): pip list
 if lib is showing not installed even if u did: ctrl+shift +p -> select interpreter and select the .venv u r working 
 Using -m (module mode) is the professional way to run local scripts: python -m model.hardcodedModel
 It force‑creates an empty file named __init__.py inside the Validate folder :New-Item -ItemType File -Path "Validate\__init__.py" -Force
+
+
+
+
+GIT comments: 
+git init - Initialize a new Git repository
+
+git config user.name "SkillRoute" - Set Git user name
+
+git config user.email "srishtisengupta544@gmail.com" - Set Git user email
+
+git add . - Stage all changes for commit
+
+git commit -m "Add hardcoded model with career roadmap AI and validation" - Commit staged changes
+
+git branch -M main - Rename current branch to main (suggested for setup)
+
+git remote add origin https://github.com/YOUR-USERNAME/SkillRoute.git - Connect to GitHub repository (suggested for setup)
+
+git push -u origin main - Push commits to GitHub main branch
+
+git log --oneline -5 - Show last 5 commits in log
+
