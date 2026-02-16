@@ -31,3 +31,19 @@ git push -u origin main - Push commits to GitHub main branch
 
 git log --oneline -5 - Show last 5 commits in log
 
+git checkout main	Switches your active working environment from one branch to the main branch.
+
+git merge 1stBranch	Combines the history and files from 1stBranch into your current branch.
+
+git pull origin main	Downloads the latest changes from GitHub and merges them into your local branch.
+
+git push origin main	Uploads your local commits to the main branch on GitHub.
+
+git push -f origin main	Force Push: Overwrites GitHub's history with your local history (used after fixing large files).
+
+git remote add origin <url>	Links your local folder to a specific repository on GitHub.
+
+git rm -r --cached .venv	Tells Git to stop tracking a folder without deleting it from your computer.
+
+git filter-repo --path <dir> --invert-paths	Completely wipes a specific folder/file from your entire Git history.
+
