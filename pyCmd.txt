@@ -4,6 +4,8 @@ activate the env u created:  .venv\Scripts\activate
 after that just check by : python
 to check all the instaalled lib in env (.venv): pip list
 if lib is showing not installed even if u did: ctrl+shift +p -> select interpreter and select the .venv u r working 
+Run the requirements.txt file : pip install -r requirements.txt
+To Upgrade the installed lib from req.txt : pip install --upgrade -r requirements.txt
 Using -m (module mode) is the professional way to run local scripts: python -m model.hardcodedModel
 It force‑creates an empty file named __init__.py inside the Validate folder :New-Item -ItemType File -Path "Validate\__init__.py" -Force
 

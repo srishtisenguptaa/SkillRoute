@@ -3,7 +3,12 @@
 
 fastapi==0.104.1
 uvicorn==0.24.0
-huggingface_hub==0.20.3
 python-dotenv==1.0.0
 requests==2.31.0
-pydantic==2.5.2
+pydantic==2.5.2 
+
+# Loosened for LangChain compatibility
+huggingface_hub
+langchain
+langchain-huggingface
+langchain-core
