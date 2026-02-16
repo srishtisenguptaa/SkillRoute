@@ -1,9 +1,28 @@
-node_modules/
-.DS_Store
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python build/cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local config & Logs
 .env
 *.log
-dist/
-build/
+
+# IDEs
 .vscode/
 .idea/
-.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+node_modules/
+dist/
+build/
