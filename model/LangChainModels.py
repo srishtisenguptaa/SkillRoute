@@ -20,6 +20,7 @@ class RoadmapGenerator:
             huggingfacehub_api_token=os.getenv("HF_TOKEN"),
             temperature=0.1,
             max_new_tokens=2000
+            
         )
         
         # 2. Set up the Pydantic Parser
