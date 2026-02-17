@@ -12,3 +12,4 @@ huggingface_hub
 langchain
 langchain-huggingface
 langchain-core
+langchain_ollama
